@@ -104,7 +104,6 @@ address {
 .description {
   display: flex;
   justify-content: space-between;
-  align-items: center;  
   width: 1000px;
   height: 51px;
   z-index: 1;
@@ -139,7 +138,7 @@ address {
 }
 
 .lots h2 {
-  margin: 0 0 0 40px;
+  margin-left: 40px;
   font-size: 40px;
 }
 
@@ -180,7 +179,7 @@ address {
   flex-direction: column;
   align-items: center;
   text-align: left;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .lots_card__films {
@@ -203,6 +202,7 @@ address {
 
 .lots_more {
   margin-left: 40px;
+  margin-top: 30px;
   font-size: 20px;
 }
 
