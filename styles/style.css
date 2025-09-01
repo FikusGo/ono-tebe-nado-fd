@@ -57,7 +57,8 @@ address {
   flex-wrap: wrap;
   font-size: 18px;
   list-style-type: none;
-  line-height: 25px;
+  line-height: 23px;
+  margin-left: 10px;
 }
 
 .cover {
@@ -125,7 +126,7 @@ address {
   color: white;
   text-transform: uppercase;
   font-size: 22px;
-  word-spacing: 17px;
+  word-spacing: 19px;
 }
 
 .description button {
@@ -145,6 +146,10 @@ address {
   margin: 180px auto 0;
   display: flex;
   flex-direction: column;
+}
+
+.lots a {
+  text-decoration: none;
 }
 
 .lots h2 {
