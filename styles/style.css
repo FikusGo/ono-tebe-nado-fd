@@ -105,6 +105,7 @@ address {
 .cover_text__center {
   text-align: center;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .cover_text__right {
@@ -148,10 +149,6 @@ address {
   flex-direction: column;
 }
 
-.lots a {
-  text-decoration: none;
-}
-
 .lots h2 {
   margin-left: 40px;
   font-size: 40px;
@@ -188,6 +185,10 @@ address {
   list-style-type: none;
 }
 
+.lots_card__container a {
+  text-decoration: none;
+}
+
 .lots_card {
   width: 334px;
   min-height: 596px;
@@ -221,6 +222,10 @@ address {
   margin-left: 40px;
   margin-top: 30px;
   font-size: 20px;
+}
+
+.lots_more a {
+  text-decoration: underline;
 }
 
 .about {
